@@ -9,6 +9,7 @@ from flask import Flask, render_template
 from lib import DadosAbertos
 from datetime import date
 import random
+from pymongo import MongoClient
 
 app = Flask(__name__)
 
